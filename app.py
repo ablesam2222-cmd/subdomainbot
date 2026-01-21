@@ -11,7 +11,7 @@ from handlers import get_handlers
 load_dotenv()
 
 # Get bot token from environment
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = '8482288227:AAGxJkZYoaTS_VrlLxhGipCzmocDCSAmzqU'
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN environment variable not set!")
 
