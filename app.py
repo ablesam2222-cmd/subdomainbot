@@ -2,9 +2,9 @@
 Main application entry point
 """
 import os
-import asyncio
 from dotenv import load_dotenv
 from telegram.ext import Application
+from telegram import Update
 from handlers import get_handlers
 
 # Load environment variables
